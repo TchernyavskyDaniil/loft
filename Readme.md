@@ -1,4 +1,4 @@
-# Тестовое задания для LoftSchool [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Тестовое задание для LoftSchool [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 ---
 
