@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Главная страница</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="page-header__nav">
+        <div class="page-header__wrapper">
+          <div class="page-header__person person">
+            <img class="person__img" src="./img/profile.png" alt="Ваше фото">
+            <div class="person__contacts">
+              <h1 class="person__name">
+                Чернявский Даниил Иванович
+              </h1>
+              <p class="person__email">
+                tchernyavsky.daniil@yandex.ru
+              </p>
+            </div>
+          </div>
+          <div class="page-header__social social">
+            <a class="social__github github" href="https://github.com/TchernyavskyDaniil" title="Ваша страница в Github">
+              <!--SVG-->
+              <svg class="github__svg svg" width="30px" height="29.263px">
+                <use xlink:href="./img/sprite/sprite-symbols.svg#git"></use>
+              </svg>
+            </a>
+            <a class="social__skype skype" href="skype:danil.chern1?add" title="Ваш Skype">
+              <svg class="skype__svg svg" width="30px" height="30px">
+                <use xlink:href="./img/sprite/sprite-symbols.svg#sk"></use>
+              </svg>
+              <!--SVG-->
+            </a>
+            <a class="social__vk vk" href="https://vk.com/chernyavskyd" title="Ваша страница в ВКонтакте">
+              <svg class="vk__svg svg" width="37.513px" height="21.403px">
+                <use xlink:href="./img/sprite/sprite-symbols.svg#vk"></use>
+              </svg>
+              <!--SVG-->
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <p class="page-main__complete visually-hidden">
+         Задание выполнено
+      </p>
+      <div class="page-main__wrapper">
+        <div class="page-main__student student">
+          <h2 class="student__title">
+            О будущем ученике
+          </h2>
+          <p class="student__text">
+            Ребятам из LoftSchool будет полезно немного обо мне
+          </p>
+        </div>
+        <section class="page-main__about-me about-me">
+          <article class="about-me__portfolio portfolio">
+            <h3 class="portfolio__title title">
+              Немного обо мне
+            </h3>
+            <p class="portfolio__text text">
+              Я&nbsp;живу в&nbsp;Краснодаре (Россия). Мне 21&nbsp;год. Высшее образование&nbsp;&mdash; 4&nbsp;курс КубГУ. Опыт в&nbsp;разработке 2-3&nbsp;месяца. Уже окончил курсы в&nbsp;HTML&nbsp;Academy, где не&nbsp;плохо научился верстать. Пока могу похвастаться только лучшим из&nbsp;них:
+              <a class="portfolio__link" href="https://tchernyavskydaniil.github.io/pink/" title="Переход на мой сайт">
+                tchernyavskydaniil.github.io/pink
+              </a>
+            </p>
+          </article>
+          <article class="about-me__skill skill">
+            <h3 class="skill__title title">
+              Мой опыт в разработке
+            </h3>
+            <p class="skill__text text">
+              В этом блоке я расскажу о себе, что я уже умею. Окончил курсы HTML Academy, а именно Базовый и Продвинутый CSS/HTML. Могу перечислить технологии, которыми уже умею пользоваться, например: html5, css3, sass, less, gulp, git, bem-naming, js, адаптивная/кроссбраузерная верстка и пр.
+            </p>
+          </article>
+        </section>
+      </div>
+      <div class="page-main__blog blog">
+        <div class="blog__wrapper">
+          <div class="blog__coursers">
+            <h4 class="blog__title">
+              Курсы на loftblog
+            </h4>
+            <p class="blog__text">
+              которые мне помогут в выполнении этого задания
+            </p>
+          </div>
+          <ul class="blog__list">
+            <li class="blog__item">
+              <div class="blog__animation visually-hidden"></div>
+              <img class="blog__img" src="./img/js.png">
+              <div class="blog__info info">
+                <div class="info__about">
+                  <h5 class="info__title">
+                    Основы JavaScript
+                  </h5>
+                  <p class="info__text">
+                    Видеокурс о&nbsp;одном из&nbsp;самых популярных языков программирования&nbsp;&mdash; JavaScript. Изучая этот курс вы&nbsp;познаете этот прекрасный язык от&nbsp;самых основ.
+                  </p>
+                  <p class="info__time">
+                    24 урока (6 часов 45 минут)
+                  </p>
+                </div>
+                <div class="blog__watch watch">
+                  <label class="watch__label" for="js">
+                    <input class="watch__checkbox" type="checkbox" name="js" id="js">
+                    <span class="watch__component">
+                      Посмотрел
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li class="blog__item">
+              <div class="blog__animation visually-hidden"></div>
+              <img class="blog__img" src="./img/jq.png">
+              <div class="blog__info info">
+                <div class="info__about">
+                  <h5 class="info__title">
+                    Основы jQUERY
+                  </h5>
+                  <p class="info__text">
+                    Видеокурс о&nbsp;одном из&nbsp;самых популярных языков программирования&nbsp;&mdash; JavaScript. Изучая этот курс вы&nbsp;познаете этот прекрасный язык от&nbsp;самых основ.
+                  </p>
+                  <p class="info__time">
+                    11 уроков (2 часов 6 минут)
+                  </p>
+                </div>
+                <div class="blog__watch watch">
+                  <label class="watch__label" for="jq">
+                    <input class="watch__checkbox" type="checkbox" name="jq" id="jq" checked>
+                    <span class="watch__component">
+                      Посмотрел
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li class="blog__item">
+              <div class="blog__animation visually-hidden"></div>
+              <img class="blog__img" src="./img/html.png">
+              <div class="blog__info info">
+                <div class="info__about">
+                  <h5 class="info__title">
+                    Базовые элементы страницы
+                  </h5>
+                  <p class="info__text">
+                    Видеокурс по&nbsp;верстке и&nbsp;программированию основных и&nbsp;популярных элементов сайтов. Посмотрев этот курс вы&nbsp;научитесь создавать табы, аккордеон, слайдшоу, слайдер и&nbsp;т.д.
+                  </p>
+                  <p class="info__time">
+                    9 уроков (2 часов 7 минут)
+                  </p>
+                </div>
+                <div class="blog__watch watch">
+                  <label class="watch__label" for="html">
+                    <input class="watch__checkbox" type="checkbox" name="html" id="html">
+                    <span class="watch__component">
+                      Посмотрел
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li class="blog__item">
+              <div class="blog__animation visually-hidden"></div>
+              <img class="blog__img" src="./img/adaptive.png">
+              <div class="blog__info info">
+                <div class="info__about">
+                  <h5 class="info__title">
+                    Создание адаптивных сайтов
+                  </h5>
+                  <p class="info__text">
+                    В&nbsp;этом курсы вы&nbsp;узнаете как создавать адаптивные сайты, что такое адаптивная верстка и&nbsp;дизайн.
+                  </p>
+                  <p class="info__time">
+                    7 уроков (2 часа 11 минут)
+                  </p>
+                </div>
+                <div class="blog__watch watch">
+                  <label class="watch__label" for="adaptive">
+                    <input class="watch__checkbox" type="checkbox" name="adaptive" id="adaptive">
+                    <span class="watch__component">
+                      Посмотрел
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li class="blog__item">
+              <div class="blog__animation visually-hidden"></div>
+              <img class="blog__img" src="./img/button.png">
+              <div class="blog__info info">
+                <div class="info__about">
+                  <h5 class="info__title">
+                    Верстка адаптивной css галереи
+                  </h5>
+                  <p class="info__text">
+                    В&nbsp;этом видеокурсы вы&nbsp;изучите инструменты, техники и&nbsp;подходы для web-разработчика, которые помогут вам решать поставленные задачи более быстро и&nbsp;эеффективно.
+                  </p>
+                  <p class="info__time">
+                    6 уроков (1 часа 9 минут)
+                  </p>
+                </div>
+                <div class="blog__watch watch">
+                  <label class="watch__label" for="button">
+                    <input class="watch__checkbox" type="checkbox" name="button" id="button">
+                    <span class="watch__component">
+                      Посмотрел
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li class="blog__item">
+              <div class="blog__animation visually-hidden"></div>
+              <img class="blog__img" src="./img/gallary.png">
+              <div class="blog__info info">
+                <div class="info__about">
+                  <h5 class="info__title">
+                    Верстка адаптивной css галереи
+                  </h5>
+                  <p class="info__text">
+                    В&nbsp;этом курсы мы&nbsp;разбьерем как сверстать адаптивную css галерею. Также мы&nbsp;познакомимся с&nbsp;Flexbox.
+                  </p>
+                  <p class="info__time">
+                    4 урокa (50 минут)
+                  </p>
+                </div>
+                <div class="blog__watch watch">
+                  <label class="watch__label" for="gallary">
+                    <input class="watch__checkbox" type="checkbox" name="gallary" id="gallary">
+                    <span class="watch__component">
+                      Посмотрел
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p class="page-footer__text">
+        А это футер, с текстом внутри. Он должен быть прибит к низу окна браузера, не зависимо от коичества контента на странице и размера окна.
+      </p>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/icons.js"></script>
+    <script src="js/picturefill.min.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
+    <script>
+        svg4everybody();
+    </script>
+  </body>
+</html>
