@@ -621,9 +621,8 @@ a {
     -webkit-box-shadow: 0 0 4px 0 #34495e;
     box-shadow: 0 0 4px 0 #34495e;
     min-height: 440px;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content; }
+    align-self: flex-start;
+}
 
 .blog__info {
     min-height: 270px;
